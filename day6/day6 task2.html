@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EMMETS</title>
+</head>
+<body>
+<center><table border="2" width="50%">
+    <h3><U>EMMETS AND DESCRIPTION</h3>
+<tr><th bgcolor="yellow"> EMMETS(Name)</th>
+    <th bgcolor="yellow">DESCRIPTION</th></tr>
+<tr><td bgcolor="pink"><b>1.! or (html5)</td>
+    <td bgcolor="pink"><li>Generates basic thml5 template</br>
+        <li><b>syntax : html>head>title^body
+    <pre>< html>
+        < head>
+             < title>< /title>
+        < /head>
+        < body>
+        < /body>
+        < /html></pre></td>
+ </tr>
+</tr>
+<tr><td bgcolor="aqua"><b>2.child:></td>
+    <td bgcolor="aqua"><li>Used to create child elements within the parent element</li>
+        <b><li>syntax : nav>ul>li<br>
+      <pre>  < nav>
+        < ul>
+            < li> < /li>
+        < /ul>
+    < /nav></pre>
+    </td></tr>
+</tr>
+<tr><td bgcolor="beige"><b>3.Sibling:+</td>
+    <td bgcolor="beige"><li>It is used to create sibling elements</li>
+        <b>syntax : div+p+bq <br>
+      <pre>< div >< /div >
+        < p >< /p>
+        < blockquote>< /blockquote></pre>
+    </td>
+</tr>
+<tr><td bgcolor="skyblue"><b>4.Climb-up: ^</td>
+    <td bgcolor="skyblue"><li>It is used to moves up one level in hierarchy,allowing us to add sibling elements to the parent elements</li>
+        <b><li>syntax : div+div>p>span+em^bq <br>
+      <pre>< div>< /div>
+        < div>
+            < p>< span>< /span>< em>< /em p>
+            < blockquote>< /blockquote>
+        < /div></pre>
+<b><li>syntax : div+div>p>span+em^^bq</b>
+<pre>< div> < /div>
+        < div>
+             < p>< span>< /span>< em>< /em>< /p>
+        < /div>
+        < blockquote>< /blockquote></pre>
+     <td>
+</tr>
+<tr><td bgcolor="pink"><b>5.Multiplication:*</td>
+    <td bgcolor="pink"><p><li>It is used to get multiple elements</li></p>
+        <b><li>syntax : ul>li*5 <br>
+      <pre>< ul>
+        < li>< /li>
+        < li>< /li>
+        < li>< /li>
+        < li>< /li>
+        < li>< /li>
+    < /ul></pre>
+    </td>
+</tr>
+<tr><td bgcolor="beige"><b>6.Item numbering: $</td>
+    <td bgcolor="beige"><b><li>syntax : ul>li.item$*5 <br>
+      <pre>
+        < ul>
+            < li class="item1">< /li>
+            < li class="item2">< /li>
+            < li class="item3">< /li>
+            < li class="item4">< /li>
+            < li class="item5">< /li>
+        < /ul> </pre>
+    </td>
+</tr>
+<tr><td bgcolor="lavender"><b>7.Grouping: ()</td>
+    <td bgcolor="lavender"><b><li>syntax : div>(header>ul>li*2>a)+footer>p  <br>
+      <pre>< div>
+    < header>
+        < ul>
+            < li>< a href="">< /a>< /li>
+            < li>< a href="">< /a>< /li>
+        < /ul>
+    < /header>
+    < footer>
+        < p>< /p>
+    < /footer>
+< /div></pre>
+    </td>
+</tr>
+<tr><td bgcolor="pink"><b>8.Text: {}</td>
+    <td bgcolor="pink"><li>To create text with in the element</li>
+        <b><li>syntax : a{Click me} <br>
+      <pre>< a href="">Click me< /a></pre>
+      <b><li>syntax :p>{Click }+a{here}+{ to continue}  <br>
+        <pre>< p>Click < a href="">here< /a> to continue< /p></pre>
+    </td>
+</tr>
+<tr><td bgcolor="grey"><b>9.Custom attributes: []</td>
+       <td bgcolor="grey"><li>To show custom attributes</br>
+    <li><b>syntax : td[rowspan=2 colspan=3 title]
+        <pre>< td rowspan="2" colspan="3" title="">< /td></pre></td>
+</tr>
+</table>    
+</body>
+</html>

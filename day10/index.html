@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>day 10</title>
+</head>
+<body>
+    <table border="2" bgcolor="beige" >
+        <tr><th>NAME</th>
+            <th>DECSRIPTION</th></tr>
+        <tr><td><b>HTML</td>
+            <td><ul><li>Html stands for hyper text markup language.</br>
+                <li>Used to create webpages .it acts as structure to the website.</li>
+                <li>It consists of series of elements which is represented by tags,which tells the browser how display the content.</li>
+                <li><b><u>MARKUP : </u></b>It is a set of rules which is udsed to structure the content,images and tags.</li> 
+                <li><b><u>HYPER TEXT :</u> </b>A single text referring a webpage or text.</li>    
+            </ul></td>
+        </tr>   
+        <tr><td><b>TAGS</td>
+            <td><ul><li>There are two types of tags are There:</li>
+                    <li><b>1.selfclosing tags or empty tags or void tags</b></li>
+                         <ul><li>Self closing tags are the tags which doesn't require closing tag </li>
+                            <li><b>Ex : < img >,< /br >,< /hr >,..etc.</li></ul></b>
+                            <li><b>2.pair tags or container tags</b></li>
+                            <ul><li>Pair tags are the tags which contains starting and ending tags.</li>
+                                 <li><b>Ex : < head >,< div >,< p >,< pre >,...etc</b></li>
+                            </ul>
+            </td>
+        </tr> 
+        <tr><td><b>ATTRIBUTES</b></td>
+            <td><ul><li>Its used to provide additional information about element.</li>
+                    <li>It is always specified in open tag</li>
+                    <li>It contains name and value pair.</li>
+                    <li>Value is enclosed in single or double quotes.</li>
+                    <li><b>EX : src,< href >,height,width,title,Target...etc.</b></li>
+            </ul></td>
+        </tr>
+        <tr><td><b>COMMENTS & TABLES</b></td>
+             <td><ul><li><b><u>Comments</u></b> are used to insert notes or annotations within the code that are ignored by the web browser when rendering the webpage.</li>
+                <li> They are helpful for documenting the purpose or functionality of certain sections of HTML code, making it easier for developers to understand and maintain the codebase.
+                It is also used for preventing the code execution
+                </li>
+                <b>< !-- comments -- ></b>
+                <li><u><b>Tables:</b></u> HTML tables are used to display data in a structured format with rows and columns. They are defined using the < table > tag.
+                    <li><b><u>Basic Structure : </u></b></li>
+                    A basic HTML table consists of:</br>
+                    <b>< table >:</b> The container for the table.</br>
+                    <b>< tr > (table row):</b> Defines a row in the table.</br>
+                    <b>< th > (table header):</b> Defines a header cell in the table.</br>
+                    <b>< td > (table data):</b> Defines a standard cell in the table.</li>
+             </ul><td>   
+        </tr>
+        <tr><td><b>CELLSPACING & CELLPADDING</td>
+        <td><ul><li>Cellspacing defines the space between the cell content and its border.</li>
+                <li>Cellpadding Defines the space between cells.
+                </li>
+        </ul></td>
+        </tr>
+        <tr><td><b>VS CODE</b></td>
+        <td><ul><li>VS Code is an open-source code editor developed by Microsoft, primarily used for web development. It provides a range of resources and tools to assist in building applications with a graphical user interface (GUI).</li>
+                 <li>It is an Integrated Development Environment(IDE)</li>
+                 <li><b><u>Key Features:</u></b></br>
+                    <b>Platform Support:</b> macOS, Linux, and Windows operating systems.</br>
+                    <b>Development Capabilities:</b> Write and debug code for various applications.</br>
+                    <b>Open Source: </b>Free to use and modify.
+                    </li>
+        </ul></td>
+        </tr>
+        <tr><td><b>EMMETS</b></td>
+            <td><ul><li>Emmet is a powerful toolkit for web developers that allows for rapid HTML and CSS coding by using shorthand abbreviations.</li>
+                 <li>These abbreviations are then expanded into complete code blocks, significantly speeding up the coding process and reducing errors. </li>
+                 <li>Emmet is widely supported in various code editors, including VS Code, Sublime Text, and Atom.</li>
+            </li>
+            </ul></td>
+        </tr> 
+        <tr><td><b>SPANNING CELLS</b></td>
+            <td><ul><li><b>Spanning Cells:</b> You can use the <b>rowspan</b> and <b>colspan</b> attributes to make a cell span multiple rows or columns, respectively. This can be useful for creating more complex layouts or merging cells for visual purposes.
+            </li>
+        </ul></td>
+        </tr> 
+        <tr><td><b>FORMATTING TAGS</b></td>
+            <td><ul><li> It is used to define the visual presentation of the web content.</li>
+                    <li><b>Ex : < b > and < i >  Tags</li>
+                    <ul><li><b>< strong > and < em > Tags</b></li>
+                        <li><b>< mark>< /mark>,< u>,< del>,...etc </b></li></ul>
+            </ul></td>
+        </tr>  
+        <tr><td><b>ABSOLUTE & RALATIVE PATHS</b></td>
+            <td><ul><li><b><u>absolute path : </u></b>An absolute path specifies the complete URL to a resource. 
+                This means it includes the protocol (such as http:// or https://), the domain name, and the full path to the resource.</li>
+                    <ul><li><b>Ex : </b>< img src="https://www.example.com/images/logo.png" alt="Logo">
+                        In this example, the browser will go to the specified URL and fetch the image, regardless of where the HTML document is located.
+                        </li></ul>
+                   <li><b><u>relativepath :</u></b>A relative path specifies the location of a resource in relation to the current document.
+                     Relative paths are shorter and more flexible than absolute paths.
+                   </li>
+                   <ul><li><b>Types of Relative Paths:</b></br>
+                    <b>Same Directory:</b>
+                    < img src="logo.png" alt="Logo">
+                    This refers to an image located in the same directory as the HTML file.</br>
+                    <b>Subdirectory:</b>
+                    < img src="images/logo.png" alt="Logo">
+                    This refers to an image located in the images subdirectory of the current directory.</br>
+                    <b>Parent Directory:</b>
+                    < img src="../images/logo.png" alt="Logo">
+                    The .. indicates moving up one level to the parent directory.</br>
+                   <b>Root Directory:</b>
+                    < img src="/images/logo.png" alt="Logo">
+                    The leading / refers to the root directory of the website
+                    </li></ul>
+            </ul></td>
+        </tr>  
+        <tr>ANCHOR AND IMAGE TAGS</tr>  
+    </table>
+    
+</body>
+</html>
